@@ -20,9 +20,9 @@ ALL RIGHTS RESERVED
 #include <iostream>
 
 #ifdef _SUNOS
-//#include "/home/common/dyd/aisdi/liniowe/ListMap.h"
+#include "/home/common/dyd/aisdi/liniowe/ListMap.h"
+#else
 #include "timer.h"
-//#else
 #include "ListMap.h"
 #endif
 
